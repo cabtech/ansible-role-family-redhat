@@ -2,4 +2,15 @@
 dependencies:
 - src: git+https://github.com/cabtech/ansible-role-opsys-unix.git
   version: '1.0.1'
+
+galaxy_info:
+  author: Tim Short
+  description: Dependent role for distros such as CentOS and RHEL
+  license: GPL v3
+  min_ansible_version: "2"
+  namespace: cabtech
+  role_name: ansible_role_family_redhat
+  platforms:
+  - name: EL
+    versions: ["all"]
 ...
